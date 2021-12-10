@@ -1,3 +1,3 @@
 #!/bin/bash
 python3 application.py
-exit
+exit 0
