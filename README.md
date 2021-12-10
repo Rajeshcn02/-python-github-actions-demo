@@ -1,1 +1,1 @@
-# -python-github-actions-demo
+# demo-python-github-actions
