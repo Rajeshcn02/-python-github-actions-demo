@@ -44,5 +44,4 @@ jobs:
 
       - name: Run script
         run: |
-          chmod 777 automation.sh
-          ./automation.sh
+          python3 test_application.py &
