@@ -41,7 +41,13 @@ jobs:
       - name: Run unit tests
         run: |
           python test_application.py
+          
+      - name: Details
+        run: |
+          ls ${{github.workspace}}
 
       - name: Run script
         run: |
           python3 test_application.py &
+          
+     
